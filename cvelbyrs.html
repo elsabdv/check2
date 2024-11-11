@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Elburs Abdykerimov</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="els.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Добавление Font Awesome -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo" id="logo">
+            <span class="lamp" id="lamp"><i class="fas fa-lightbulb"></i></span> 
+            <span id="name">Abdykerimov Elburs</span> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#recent-work">Recent Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    </header>
+    
+    
+    
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p class="intro-text">I am a <span class="highlight">HTML CSS Front End Developer</span>, 
+            sometimes I create <span class="highlight">2D and 3D games</span> in the Unity Game Engine. 
+            I do design, website development. Personal qualities: <span class="highlight">dedication, sociability, punctuality, hard work, responsible attitude</span> to the assigned task. 
+            I have a great desire to work and develop professionally.</p>
+        </div>
+        </div>
+        <div class="qualities">
+            <div class="quality">
+                <i class="fas fa-lightbulb"></i>
+                <p>Creativity</p>
+            </div>
+            <div class="quality">
+                <i class="fas fa-clock"></i>
+                <p>Punctuality</p>
+            </div>
+            <div class="quality">
+                <i class="fas fa-users"></i>
+                <p>Sociability</p>
+            </div>
+        </div>
+        
+            <div class="services-container" style="padding-top: 20px;">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Website Developer</h3>
+                    <p>Creating and optimizing modern websites with responsive design.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>2D and 3D Designer</h3>
+                    <p>Designing and animating 2D and 3D objects for various applications.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Game Creator</h3>
+                    <p>Developing gameplay mechanics and creating immersive game worlds.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Model Maker</h3>
+                    <p>3D modeling and texturing for games.</p>
+                </div>
+            </div>       
+        <button class="portfolio-button" onclick="openResume()">My CV</button>
+        
+        <div id="portfolio-info" style="display:none;">
+            <img src="photo/2.jpeg" alt="Your Photo">
+            <p>Your Name - A short bio or introduction.</p>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <!-- Карточка для HTML -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="70">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">1%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Карточка для CSS -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>C++</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>C#</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Unity</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Unity 2D</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Unity 3D</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Python</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Django</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>JAVA</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>GO</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Kotlin</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Swift</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="50">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>GitHub</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="0">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Data Base</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="circle-progress" data-percent="0">
+                            <svg>
+                                <circle cx="50%" cy="50%" r="45%" class="background-circle"/>
+                                <circle cx="50%" cy="50%" r="45%" class="foreground-circle"/>
+                            </svg>
+                            <div class="percentage">0%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Languages Section -->
+    <section id="languages" class="section">
+        <h2>Languages</h2>
+        <div class="languages-timeline">
+            <div class="language" data-name="Kyrgys">
+                <span class="flag"><img src="https://flagcdn.com/w40/kg.png" alt="English Flag"></span>
+                <div class="info">Kyrgys - 100%</div>
+            </div>
+            <div class="language" data-name="Russian">
+                <span class="flag"><img src="https://flagcdn.com/w40/ru.png" alt="Russian Flag"></span>
+                <div class="info">Russian - 85%</div>
+            </div>
+            <div class="language" data-name="English">
+                <span class="flag"><img src="https://flagcdn.com/w40/us.png" alt="Spanish Flag"></span>
+                <div class="info">English - 70%</div>
+            </div>
+            <div class="language" data-name="Turkish">
+                <span class="flag"><img src="https://flagcdn.com/w40/tr.png" alt="Spanish Flag"></span>
+                <div class="info">Turkish - 40%</div>
+            </div>
+            <div class="language" data-name="Chinese">
+                <span class="flag"><img src="https://flagcdn.com/w40/cn.png" alt="Chinese Flag"></span>
+                <div class="info">Chinese - 10%</div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="stepper">
+            <!-- BILIMKANA School Entry -->
+            <div class="step">
+                <div class="step-content">
+                    <div class="step-icon">🏫</div>
+                    <h3>BILIMKANA School</h3>
+                    <p><strong>Location:</strong> Bishkek</p>
+                    <p>Provided a strong foundation in core subjects with a focus on character building, leadership, and critical thinking skills.</p>
+                    <span class="step-date">2016 - 2021</span>
+                </div>
+            </div>
+            
+            <!-- Ala-Too International University Entry -->
+            <div class="step">
+                <div class="step-content">
+                    <div class="step-icon">🎓</div>
+                    <h3>Ala-Too International University</h3>
+                    <p><strong>Field of Study:</strong> Computer Science</p>
+                    <p>Specialized in programming, software engineering, and digital innovation. Known for a multicultural learning environment and rigorous curriculum.</p>
+                    <span class="step-date">2021 - 2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience-timeline">
+          <div class="experience-card">
+            <h3>Front End Developer</h3>
+            <p class="company-name">Ala-Too International University</p>
+            <p class="duration">2021 - 2024</p>
+            <div class="details">
+              <p>Worked as a Front End Developer at Ala-Too International University starting in 2021. Responsible for developing modern web applications and optimizing the user experience.</p>
+            </div>
+          </div>
+          
+          <div class="experience-card">
+            <h3>Game Developer</h3>
+            <p class="company-name">Personal Projects</p>
+            <p class="duration">2022 - 2024</p>
+            <div class="details">
+              <p>Started learning the C# programming language and developing small games. Focused on Unity 2D & 3D for game creation.</p>
+            </div>
+          </div>
+          
+          <div class="experience-card">
+            <h3>Unity 2D Developer</h3>
+            <p class="company-name">Personal Projects</p>
+            <p class="duration">2022 - 2023</p>
+            <div class="details">
+              <p>Created the first game, a 2D chess game where two players can play on different devices.</p>
+            </div>
+          </div>
+          
+          <div class="experience-card">
+            <h3>Unity 3D Developer</h3>
+            <p class="company-name">Personal Projects</p>
+            <p class="duration">2022 - Present</p>
+            <div class="details">
+              <p>Currently developing a 3D puzzle game called Labyrinth. The game is still in progress and will be launched on the Play Store soon.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Recent Work Section with Image Cards -->
+    <section id="recent-work" class="section">
+        <h2>Recent Work</h2>
+        <div class="work-gallery">
+          <div class="work-card">
+            <img src="photo/3.jpeg" alt="Project 1">
+            <div class="work-card-overlay">
+              <h3>Hidden camera</h3>
+              <p>JavaScript, Python</p>
+              <a href="https://0ff1-139-28-29-93.ngrok-free.app" target="_blank">View Project</a>
+            </div>
+          </div>
+          
+          <div class="work-card">
+            <img src="photo/GAME.jpg" alt="Project 2">
+            <div class="work-card-overlay">
+              <h3>Labyrinth</h3>
+              <p>Unity 3D, C#</p>
+              <a href="c:\Users\Asus\Desktop\game.zip" target="_blank">View Project</a>
+            </div>
+          </div>
+          
+          <div class="work-card">
+            <img src="photo/1.jpeg" alt="Project 3">
+            <div class="work-card-overlay">
+              <h3>Chess Online</h3>
+              <p>Unity 2D</p>
+              <a href="c:\Users\Asus\Desktop\chess.zip" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>Feel free to reach out for collaborations, questions, or just a friendly chat!</p>
+            <ul>
+              <li><strong>Email:</strong> <a href="mailto:elbyrs.job@gmail.com">elbyrs.job@gmail.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+996770409580">+996 770 40 95 80</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-profile" target="_blank">your-profile</a></li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/your-profile" target="_blank">your-profile</a></li>
+            </ul>
+          </div>
+      
+          <div class="contact-form">
+            <h3>Send a Message</h3>
+            <form action="https://formspree.io/f/myzyjwey" method="POST">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+
+
+
+    
+    <script>
+        function openResume() {
+            window.open('pdf/CVelburs.pdf', '_blank');
+        }
+        function toggleMenu() {
+            document.querySelector("header").classList.toggle("nav-active");
+        }
+        function showPortfolioInfo() {
+            const info = document.getElementById("portfolio-info");
+            info.style.display = info.style.display === "block" ? "none" : "block";
+        }
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+    if (window.innerWidth > 768) {
+        return; 
+    }
+
+    const links = document.querySelectorAll('header nav ul li a');
+    
+    links.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault(); 
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            window.scrollTo({
+                top: targetElement.offsetTop - document.querySelector('header').offsetHeight,
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+
+
+document.querySelectorAll('.flip-card').forEach(function(card) {
+    const progressElement = card.querySelector('.circle-progress');
+    const percent = progressElement.getAttribute('data-percent');
+    progressElement.style.setProperty('--percent', percent);
+    card.addEventListener('mouseover', function() {
+        setTimeout(function() {
+            progressElement.style.setProperty('--percent', percent); // Применяем прогресс при наведении
+        }, 200);
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll('header nav ul li a');
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const id = entry.target.id;
+            const link = document.querySelector(`header nav ul li a[href="#${id}"]`);
+            if (entry.isIntersecting) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    }, {
+        rootMargin: '-50% 0px -50% 0px',
+        threshold: 0
+    });
+
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+
+    
+    links.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            window.scrollTo({
+                top: targetElement.offsetTop - document.querySelector('header').offsetHeight,
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+
+
+const educationItems = document.querySelectorAll('.education-item');
+
+function showOnScroll() {
+    educationItems.forEach(item => {
+        const itemPosition = item.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.3;
+
+        if (itemPosition < screenPosition) {
+            item.classList.add('visible');
+        }
+    });
+}
+
+window.addEventListener('scroll', showOnScroll);
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const logo = document.getElementById('logo'); 
+    const text = logo.textContent;
+    logo.textContent = ''; 
+    text.split('').forEach((letter, index) => {
+        const span = document.createElement('span');
+        span.textContent = letter;
+        span.style.opacity = 0; 
+        span.style.transition = `opacity 0.5s ease ${index * 0.1}s`; 
+        logo.appendChild(span);
+    });
+
+    setTimeout(() => {
+        const spans = logo.querySelectorAll('span');
+        spans.forEach(span => {
+            span.style.opacity = 1;
+        });
+    }, 100);
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const aboutSection = document.getElementById("about");
+    const aboutContent = document.querySelector(".about-content");
+
+    window.addEventListener("scroll", function () {
+        const rect = aboutSection.getBoundingClientRect();
+        if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+            aboutContent.style.animation = "fadeIn 1.5s ease-out";
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const steps = document.querySelectorAll('.step');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('step-visible');
+                observer.unobserve(entry.target); // To animate only once
+            }
+        });
+    }, { threshold: 0.5 });
+
+    steps.forEach(step => observer.observe(step));
+});
+
+    </script>
+
+</body>
+</html>
